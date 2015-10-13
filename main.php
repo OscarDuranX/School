@@ -9,7 +9,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Com\Iesebre\Dam2\oscarduran\Persons\Person;
 
 
-
+/*
 
 
 $person = new Person();
@@ -17,4 +17,4 @@ $person = new Person();
 $person->type="PEPITA!";
 $person->setGivenName("Pepita Palotes");
 
-$person->render();
+$person->render();*/

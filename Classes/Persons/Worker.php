@@ -7,4 +7,30 @@
  */
 trait Worker {
     public $salary;
+
+    /**
+     * Worker constructor.
+     * @param $salary
+     */
+    public function __construct($salary)
+    {
+        $this->salary = $salary;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSalary()
+    {
+        return $this->salary;
+    }
+
+    /**
+     * @param mixed $salary
+     */
+    public function setSalary($salary)
+    {
+        $this->salary = $salary;
+    }
+
 }

@@ -13,6 +13,39 @@ class Student extends Person
     public $dual = false;
 
     /**
+     * @return mixed
+     */
+    public function getClassRoomGrup()
+    {
+        return $this->classRoomGrup;
+    }
+
+    /**
+     * @param mixed $classRoomGrup
+     */
+    public function setClassRoomGrup($classRoomGrup)
+    {
+        $this->classRoomGrup = $classRoomGrup;
+    }
+
+    /**
+     * @return bool|null
+     */
+    public function getDual()
+    {
+        return $this->dual;
+    }
+
+    /**
+     * @param bool|null $dual
+     */
+    public function setDual($dual)
+    {
+        $this->dual = $dual;
+    }
+
+
+    /**
      * Student constructor.
      * @param bool $dual
      */
